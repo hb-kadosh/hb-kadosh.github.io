@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Forms</title>
+</head>
+<body>
+
+<!-- 
+1. create a form that posts to: https://coderinyou-1332.appspot.com/submit
+2. The form should have the 3 inputs:
+	-	username (text)
+	-	(email)
+	-	(submit) button
+3. input should handle the following attributes:
+	-	id: for linking to label
+	-	type: what kind of input?
+	-	name: the key name (reflected in the receiving server)
+	-	placeholder: helper text when empty
+	-	required: cannot send form if empty
+4. username and email should have accompanying labels
+5. each label+input pair is wrapped in a <div> 
+-->
+<form action="https://coderinyou-1332.appspot.com/submit" method="post"> <!-- post to a server address -->
+	<div>
+		<label for="u-name-id">Name: </label>
+		<input id="u-name-id" type="text" name="USERNAME" placeholder="Charlie Brown" required maxlength="20"><br> 
+	<!-- USERNAME data impt for key:value pair for server to update -->
+	</div>
+	<div>
+		<label >Email: </label>
+		<input type="email" name="your email" placeholder="charlie@brown.org" required><br>
+	</div>
+
+	<p>
+	<input type="submit" name="" value="Sign up">
+	</p>
+
+</form>
+
+<div style="display: none"> <!-- none/block -->
+Please write name
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
