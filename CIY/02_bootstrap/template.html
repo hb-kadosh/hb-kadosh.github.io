@@ -30,11 +30,15 @@
     
     <!-- use this style for testing and development purposes -->
     <style type="text/css">
-    .container{border: 5px solid green;}
-    .row{border: 1px solid red;}
-    .row [class*=' col-']{border: 2px solid grey;}
-    </style>
+    .container{border: 3px solid darkblue;}
     
+    
+    </style>
+    <!-- 
+    .row{border: 1px solid darkgrey;} 
+    .row [class*=' col-']{border: 2px solid grey;}
+    -->
+
 </head>
 <body>
     
@@ -56,9 +60,11 @@
                     <h1 class="wow flip">What gets measured gets done!</h1>
                     <p><h3 class="my-subtext">Do you know the real costs of your products and cutomers?
                     </h3></p>
-                    <p><h3 class="my-subtext">Are your performance indictors linking your operations to strategy?
+                    <p><h3 class="my-subtext">Are your performance indictors linking your operations to corporate strategy?
                     </h3></p>
-                    <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+                    <p><a class="btn btn-primary btn-lg" href="" role="button">Get your copy of Balanced Scorecard from Harvard Business Review</a>
+                    </p>
+                    <!-- "Using the Balanced Scorecard as a Strategic Management System.pdf"  -->
 
                 </div>
 
@@ -100,13 +106,23 @@
             
                     <div class="thumbnail">
                         <img src="http://www.managementaccounting.info/wp-content/uploads/2015/05/cropped-Human-Resources.jpg" alt="">
+                        
+                        <div class="caption">
+                            <h4>Balanced Scorecard</h4>
+                            <em>for managing Corporate Strategy & Human Capital</em>
+                        </div>
+
+                        <img src="http://www.cs.vu.nl/~frankh/dilbert/project_uncertainty_principle.gif" alt="">
 
                         <div class="caption">
-                            <h3>Balanced Scorecard</h3>
-                            <p>Managing Human Capital</p>
-                            <a href="#" class="btn btn-default btn-sm">click to learn more
-                            </a>
+                            <h4>Cost Management</h4>
+                            <em>for managing true business costs</em>
                         </div>
+
+                        <!--
+                            <a href="#" class="btn btn-default btn-sm">click to learn more
+                            </a>  
+                        -->
 
                     </div>
                   
@@ -118,7 +134,7 @@
                     col-md-6                    col-lg-6">
             
                     <div class="thumbnail">
-                        <img src="http://vignette1.wikia.nocookie.net/vsbattles/images/a/a3/Black-windows_542931.jpg/revision/latest?cb=20150317090032" alt="" id="toggle-img-id" class="img-responsive">
+                        <img src="black.jpg" alt="" id="toggle-img-id" class="img-responsive">
 
                         <div class="caption">
                             <h3>Costs!... the bad guys</h3>
@@ -129,6 +145,10 @@
                             click to find the baddies !
                             </button>
                         </div>
+                        <!--
+                            <img src="http://vignette1.wikia.nocookie.net/vsbattles/images/a/a3/Black-windows_542931.jpg/revision/latest?cb=20150317090032" alt="" id="toggle-img-id" class="img-responsive">
+
+                        -->
 
                     </div>
                   
@@ -179,26 +199,31 @@
 
                                 <!-- https://github.com/hb-kadosh/hb-kadosh.github.io  -->
 
-                                <legend>Sign Up :)</legend>
+                                <legend>Need info?</legend>
 
                                 <div class="form-group">
-                                    <label for="name-id">Name</label>
+                                    <label for="name-id"> </label>
                                     <input type="text" name="NAME" id="NAME" placeholder="Your name" class"form-control">
                                 </div>
                                 <div class="form-group">
-                                    <label for="email-id">Email</label>
+                                    <label for="email-id"> </label>
                                     <input type="email" name="EMAIL" id="EMAIL" placeholder="Your email" class"form-control">
                                 </div> 
-                                <div class="radio"> <!-- weekly -->
+                                <div class="form-group">
+                                    <label for="interest-id">Topics interested </label>
+                                    <input type="text" name="INTEREST" id="INTEREST" placeholder="(max. 200 characters)..." pattern=".{1,200}" class"form-control">
+                                </div> 
+
+                                <div class="radio"> <!-- Contact me -->
                                     <label>
-                                        <input type="radio" name="Newsletter"
-                                        value="weekly" checked="checked">Send me weekly
+                                        <input type="radio" name="Contact me"
+                                        value="contactme" checked="checked">Contact me
                                     </label>
                                     
                                 </div>
                                 <div class="radio"> <!-- never -->
                                     <label>
-                                        <input type="radio" name="Newsletter"
+                                        <input type="radio" name="Contact me"
                                         value="never">Never
                                     </label>
                                     
@@ -235,12 +260,17 @@
                     col-lg-6
                     text-center">
                    
-                        <h1>About myself... </h1>
+                        <h1>Hi, I'm hb... </h1>
                         <hr>
 
+                        <h4><p>
+                        and I specialize in performance management involving cost management and balanced scorecard methodologies. Have implemented performance management models for organizations in the region, in various industries such as banking, port authority, manufacturing, government, schools, oil & gas, healthcare, telecommunications, and distribution. Currently managing a team in the area of data analytics/science.</p>
                         <p>
-                        Belonging to the species of ITsaurs (age of Cobol & BASIC), specialized in performance management involving cost and balanced scorecard methodologies. Have performance management implementations in various industries such as banking, port authorities, manufacturing, government, schools, oil & gas, telecommunications, and distribution.
+                        My other interests include martial arts and learning Hebrew. For my semi-retirement, I might just evolve into a Lean MEAN Coding Machine.
                         </p>
+                        <p>
+                        Message me for a chat! 
+                        </p></h4>
                          
         </div> <!-- end of col 2 My Description -->
 
@@ -265,12 +295,17 @@
                             <th>Day</th>
                         </tr>
                         <tr>
-                            <td>Ubi Techpark</td>
+                            <td>
+                            <button id="toggle-img-button-ubiTechpark" class="btn btn-default btn-md">
+                            Ubi Techpark
+                            </button></td>
                             <td>9am - 6pm</td>
                             <td>Mon - Fri</td>
                         </tr>
                          <tr>
-                            <td>Pasir Ris</td>
+                            <td><button id="toggle-img-button-pasirRis" class="btn btn-default btn-md">
+                            Pasir Ris
+                            </button></td>
                             <td>guess... </td>
                             <td>lah ?? =D</td>
                         </tr>
@@ -311,6 +346,7 @@
                         <h3>Contact me at</h3>
 
                         <!-- using bootstrap way of ul -->
+                       
                         <a href="#" class="list-group-item">
                             <i class="fa-li fa fa-phone"></i>
                                 <!-- 1. create an anchor link that opens a phone call -->
@@ -325,6 +361,7 @@
                                 ong_hui_beng@yahoo.com
                         </a>
                         </a>
+
 
                         <!-- conventional way of ul -->
                         <ul class="fa-ul">
@@ -411,24 +448,56 @@
 
 
 <script type="text/javascript">
+
     $(function(){
         var count = 0;
-
         $('#toggle-img-button-id').click(function(){
              var urls = [
-             "http://vignette1.wikia.nocookie.net/vsbattles/images/a/a3/Black-windows_542931.jpg/revision/latest?cb=20150317090032",
+             "black.jpg",
              "friendly-hostage-target-practice.jpg"];
              count++;
              if(count >= urls.length){
                 count = 0;
              }
-
              var cur = $('#toggle-img-id').attr('src', urls[count]);
              console.log(urls[count]);
         });
     });
+
 </script>
 
+
+<script type="text/javascript">
+
+    $(function(){
+
+        $('#toggle-img-button-ubiTechpark').click(function(){
+             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15954.997626399887!2d103.8956559!3d1.326301!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe0d1531a5ce5d80!2sUBI+Techpark!5e0!3m2!1sen!2ssg!4v1484914173333" class="embed-responsive-item">
+             </iframe>;
+        };
+    });
+
+</script>
+
+
+<script type="text/javascript">
+
+     $(function(){
+
+        $('#toggle-img-button-pasirRis').click(function(){
+             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15954.691570130899!2d103.9492576!3d1.3729519!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd08088d87442a66c!2sPasir+Ris!5e0!3m2!1sen!2ssg!4v1485103714668" class="embed-responsive-item">
+             </iframe>;
+             }
+        });
+    });
+
+</script>
+
+<!--
+    var urls = [
+             "http://vignette1.wikia.nocookie.net/vsbattles/images/a/a3/Black-windows_542931.jpg/revision/latest?cb=20150317090032",
+             "friendly-hostage-target-practice.jpg"];
+-->
 <!-- https://thisislalaland.files.wordpress.com/2011/08/friendly-hostage-target-practice.jpg -->
 
 </body>

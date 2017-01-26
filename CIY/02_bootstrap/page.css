@@ -4,8 +4,15 @@
 	margin: 1px auto;
 }
 
+.my-main-text {
+	color: green;
+	font-size: 500;
+	font-style: bold;
+}
+
 .my-subtext {
-	color: black;
+	color: yellow;
+	font-weight: 100;
 }
 
 /* padding: 20px;

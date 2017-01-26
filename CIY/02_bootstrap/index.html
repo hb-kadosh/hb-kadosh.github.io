@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>hb's Page</title>
+
+    <!-- default bootstrap -->    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    
+    <!-- THEMES MUST COME AFTER THE BOOTSTRAP CSS -->
+
+
+    <!-- try themes from: https://startbootstrap.com/-->
+    <!-- <link rel="stylesheet" type="text/css" href="theme.css"> -->
+    <!-- <link rel="stylesheet" type="text/css" href="theme2.css"> -->
+    <!-- <link rel="stylesheet" type="text/css" href="theme3.css"> -->
+    <!-- <link rel="stylesheet" type="text/css" href="theme4.css"> -->
+
+    <link rel="stylesheet" type="text/css" href="theme4.css">
+
+    <!-- your own custom css - come after the themes -->
+    <link rel="stylesheet" type="text/css" href="page.css">
+
+    <!-- font awesome - come after the themes -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/fontawesome/4.7.0/css/font-awesome.min.css">
+    
+    <!-- animate.css -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/animatecss/3.5.2/animate.min.css">
+    
+    <!-- use this style for testing and development purposes -->
+    <style type="text/css">
+    .container{border: 3px solid darkblue;}
+    
+    
+    </style>
+    <!-- 
+    .row{border: 1px solid darkgrey;} 
+    .row [class*=' col-']{border: 2px solid grey;}
+    -->
+
+</head>
+<body>
+    
+<!-- everything will be in this container -->
+<div class="container">
+
+    <!-- ********** row 1 Jumbotron -->
+    <div class="row">
+
+        <div class="col-xs-12 
+                col-sm-12
+                col-md-12
+                col-lg-12">
+        
+                <div class="jumbotron my-background"> <!-- jumbotron is a bootstrap class -->
+                    
+                    <!--  <img src="https://wordhavering.files.wordpress.com/2013/03/green-pastures.jpg" alt=""> -->
+
+                    <h1 class="wow flip">What gets measured gets done!</h1> 
+                    <!-- wow flip is animate.css -->
+                    <p><h3 class="my-subtext">Do you know the real costs of your products and cutomers?
+                    </h3></p>
+                    <p><h3 class="my-subtext">Are your performance indictors linking your operations to corporate strategy?
+                    </h3></p>
+                    <p><a class="btn btn-primary btn-lg" href="Using the Balanced Scorecard as a Strategic Management System.pdf" role="button">Get your copy of Balanced Scorecard from Harvard Business Review</a>
+                    </p>
+
+                </div>
+
+        </div> <!-- end of full screen col -->
+   
+    </div> <!-- end of row 1 Jumbotron -->
+
+
+    <!-- ********** row 2 for Thumbnails -->
+    <div class="row"> 
+
+        <!-- col 1 -->
+        <!--
+        <div class="col-xs-12
+                    col-sm-2
+                    col-md-2
+                    col-lg-2">
+            
+                    <div class="thumbnail">
+                        <img src="http://placehold.it/800x600" alt="">
+
+                        <div class="caption"><
+                            <h3>Title 1</h3>
+                            <p>Charlie Brown 1</p>
+                            <a href="#" class="btn btn-default btn-sm">click 1
+                            </a>
+                        </div>
+
+                    </div>
+
+        </div> --> <!-- end of col 1 -->
+
+
+        <!-- col 2 -->
+        <div class="col-xs-12
+                    col-sm-6
+                    col-md-6
+                    col-lg-6">
+            
+                    <div class="thumbnail">
+                        <img src="http://www.managementaccounting.info/wp-content/uploads/2015/05/cropped-Human-Resources.jpg" alt="">
+                        
+                        <div class="caption">
+                            <h4>Balanced Scorecard</h4>
+                            <em>for managing Corporate Strategy & Human Capital</em>
+                            
+                        </div>
+
+                        <img src="http://www.cs.vu.nl/~frankh/dilbert/project_uncertainty_principle.gif" alt="">
+
+                        <div class="caption">
+                            <h4>Cost Management</h4>
+                            <em>for managing true business costs</em>
+                            
+                        </div>
+
+                        <!--
+                            <a href="#" class="btn btn-default btn-sm">click to learn more
+                            </a>  
+                        -->
+
+                    </div>
+                  
+        </div> <!-- end of col 2 -->
+
+        <!-- col 3 -->
+        <div class="col-xs-12
+                    col-sm-6
+                    col-md-6                    col-lg-6">
+            
+                    <div class="thumbnail">
+                        <img src="sales.jpg" alt="" id="toggle-img-id" class="img-responsive">
+
+                        <div class="caption">
+                            <h3>Costs!... the bad guys</h3>
+                            <p><h4><em>
+                            If you can't see them, you can't shoot them
+                            </em></h4></p>
+                            <button id="toggle-img-button-id" class="btn btn-default btn-md">
+                            click to find the baddies !
+                            </button>
+                        </div>
+                        <!--
+                            <img src="http://vignette1.wikia.nocookie.net/vsbattles/images/a/a3/Black-windows_542931.jpg/revision/latest?cb=20150317090032" alt="" id="toggle-img-id" class="img-responsive">
+
+                        -->
+
+                    </div>
+                  
+        </div> <!-- end of col 3 -->
+
+    </div> <!-- end of row 2 Thumbnails -->
+
+    <hr>
+
+    <!-- ********** row 3 Responsive Embed -->
+    <div class="row">
+
+        <div class="col-xs-12 
+                col-sm-12
+                col-md-12
+                col-lg-12">
+
+                <!-- 16:9 aspect ratio -->
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/vpzxkd08ISM?autoplay=0&loop=1&start=18&playlist=vpzxkd08ISM">
+                    </iframe>
+                    <!-- ?autoplay=1&loop&start=18&playlist=vpzxkd08ISM -->
+                    <!-- American Sniper 0:20-0:27 sec -->
+                    <!--
+                    <h2>Area for Responsive Embed</h2> -->
+                </div>
+                
+        </div> <!-- end of full screen col -->
+
+    </div> <!-- end of row 3 Responsive Embed -->
+
+    <hr>
+
+
+    <!-- ********** row 4 Form & My Description-->
+    <div class="row">
+
+        <!-- col 1 Form -->
+        <div class="col-xs-12 
+                    col-sm-6
+                    col-md-6
+                    col-lg-6">
+
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+
+                            <form action="https://script.google.com/macros/s/AKfycbyG53fek2LniB9P_TOgPDFD8k3R45ZBiLoz2G1QAJTTgnaWI22g/exec" method="post"> 
+
+                                <!-- https://github.com/hb-kadosh/hb-kadosh.github.io  -->
+
+                                <legend>Like to know more?</legend>
+
+                                <div class="form-group">
+                                    <label for="name-id"> </label>
+                                    <input type="text" name="NAME" id="NAME" placeholder="Your name" class="form-control">
+
+                                    <!-- displays pick alert msg -->
+                                    <div class="alert alert-danger hidden"
+                                         id="name-error"
+                                         role="alert">
+                                         requires min 4 characters
+                                    </div>
+
+
+                                </div>
+                                <div class="form-group">
+                                    <label for="email-id"> </label>
+                                    <input type="email" name="EMAIL" id="EMAIL" placeholder="Your email" class="form-control">
+                                </div> 
+                                <div class="form-group">
+                                    <label for="interest-id">Topics interested </label>
+                                    <input type="text" name="INTEREST" id="INTEREST" placeholder="(max. 200 characters)..." maxlength="200" pattern="^{0,200}$" class="form-control">
+                                </div> 
+
+                                <div class="radio"> <!-- Contact me -->
+                                    <label>
+                                        <input type="radio" name="Contact me"
+                                        value="contactme" checked="checked">Contact me
+                                    </label>
+                                    
+                                </div>
+                                <div class="radio"> <!-- never -->
+                                    <label>
+                                        <input type="radio" name="Contact me"
+                                        value="never">Never
+                                    </label>
+                                </div>
+                                <!--
+                                </div>
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox"
+                                               name="PDPA"
+                                               value="on">PDPA
+                                    </label>
+                                    
+                                </div>   
+                                -->
+
+                                <div>
+                                    I agree to PDPA terms
+
+                                    <!-- <br> -->
+                                    <input type="checkbox"
+                                           name="PDPA"
+                                           value="on"
+                                           id="cb-id">
+                                    
+
+                                </div>
+
+                                <div class="form-group">
+                                    <input type="submit"
+                                           id="submit-id"
+                                           disabled class="btn btn-primary">
+                                </div>
+
+                                <!--
+                                <div class="form-group">
+                                    <input type="submit" 
+                                    class"btn btn-default">
+                                </div>
+                                -->
+
+                            </form>
+
+                        </div> <!-- panel body -->
+                    </div> <!-- panel body default -->
+                    
+        
+        </div> <!-- end of col 1 Form -->
+
+        <!-- col 2 My Description -->
+        <div class="col-xs-12 
+                    col-sm-6
+                    col-md-6
+                    col-lg-6
+                    text-center">
+                   
+                        <h1>Hi, I'm hb... </h1>
+                        <hr>
+
+                        <h4><p>
+                        and I specialize in performance management involving cost management and balanced scorecard methodologies. Have implemented performance management models for organizations in the region, in various industries such as banking, port authority, manufacturing, government, schools, oil & gas, healthcare, telecommunications, and distribution. Currently managing a team in the area of data analytics/science.</p>
+                        <p>
+                        My other interests include martial arts and learning <a href="https://en.wikipedia.org/wiki/Hebrew_language" alt=""><em><span id="hebrew">Hebrew</span></em></a>. For my semi-retirement, I might just evolve into a Lean MEAN Coding Machine.
+                        </p>
+                        <p>
+                        </p></h4>
+                         
+        </div> <!-- end of col 2 My Description -->
+
+    </div> <!-- end of row 4 Form & My Description-->
+
+    <hr>
+
+    <!-- ********** row 5 Schedule, Map & Contact Me -->
+    <div class="row">
+
+        <!-- col 1 Schedule -->
+        <div class="col-xs-12
+                    col-sm-4
+                    col-md-4
+                    col-lg-4">
+                    
+                    <h3 class="text-center">Movement schedule</h3>
+                    <table class="table table-hover">
+                        <tr>
+                            <th><h4>Hideouts</h4></th>
+                            <th><h4>Time</h4></th>
+                            <th><h4>Day</h4></th>
+                        </tr>
+                        <tr>
+                            <td>
+                            <button id="toggle-img-button-ubiTechpark" class="btn btn-default btn-md">
+                            Ubi Techpark
+                            </button></td>
+                            <td>9am - 6pm</td>
+                            <td>Mon - Fri</td>
+                        </tr>
+                         <tr>
+                            <td><button id="toggle-img-button-pasirRis" class="btn btn-default btn-md">
+                            Pasir Ris
+                            </button></td>
+                            <td>off office hours</td>
+                            <td></td>
+                        </tr>
+
+                    </table>
+
+        </div> <!-- end of col 1 -->
+
+        <!-- col 2 Map -->
+        <div class="col-xs-12
+                    col-sm-4
+                    col-md-4
+                    col-lg-4">
+            
+                    <div class="embed-responsive embed-responsive-4by3">
+
+                        <h5>I usually loiter at...</h5>
+
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15954.997626399887!2d103.8956559!3d1.326301!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe0d1531a5ce5d80!2sUBI+Techpark!5e0!3m2!1sen!2ssg!4v1484914173333" alt="" id="map-id1" class="embed-responsive-item">
+                        </iframe>
+
+                        <!-- 2 diff $().click() functions switching 2 maps into only ONE display marked by a SINGLE id -> map-id1
+
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15954.691570130899!2d103.9492576!3d1.3729519!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd08088d87442a66c!2sPasir+Ris!5e0!3m2!1sen!2ssg!4v1485103714668"
+                        id="map-id2"       class="embed-responsive-item">
+                        </iframe>
+                        -->
+
+
+
+
+                        <!-- class="responsive-embed" 
+                            https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15954.997626399887!2d103.8956559!3d1.326301!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe0d1531a5ce5d80!2sUBI+Techpark!5e0!3m2!1sen!2ssg!4v1484914173333
+                        -->
+
+                    </div> <!-- embed responsive -->
+                  
+        </div> <!-- end of col 2 -->
+
+        <!-- col 3 Contact Me -->
+        <div class="col-xs-12
+                    col-sm-4
+                    col-md-4
+                    col-lg-4">
+            
+                    <div class="list-group">
+
+                        <h3>Contact me at</h3>
+
+                        <!-- using bootstrap way of ul -->
+                       
+                        <a href="tel: 98204280" class="list-group-item">
+                            <i class="fa-li fa fa-phone"></i>
+                                <!-- 1. create an anchor link that opens a phone call -->
+                                <!-- nb: may not work on some windows pc (used mainly for mobile phones)-->
+                                98204280
+                        </a>
+                        </a>
+                        <a href="mailto:ong_hui_beng@yahoo.com" class="list-group-item">
+                            <i class="fa-li fa fa-envelope"></i>
+                                <!-- 2. create an anchor link that opens an email -->
+                                <!-- nb: does not work on chrome. safari is good -->
+                                ong_hui_beng@yahoo.com
+                        </a>
+                        </a>
+
+
+                        <!-- conventional way of ul -->
+                        <!-- 
+                        <ul class="fa-ul">
+                            <li>
+                                <i class="fa-li fa fa-phone"></i>
+                        -->
+                                <!-- 1. create an anchor link that opens a phone call -->
+                                <!-- nb: may not work on some windows pc (used mainly for mobile phones)-->
+                        <!--
+                                <a href="tel: 98204280" target="_self">98204280</a>
+                            </li>
+                            <li>
+                                <i class="fa-li fa fa-envelope"></i>
+                        -->
+                                <!-- 2. create an anchor link that opens an email -->
+                                <!-- nb: does not work on chrome. safari is good -->
+                        <!--
+                                <a href="mailto:ong_hui_beng@yahoo.com">ong_hui_beng@yahoo.com</a>
+                            </li>
+                        </ul>
+                        -->
+
+                    </div>
+                  
+        </div> <!-- end of col 3 -->
+
+    </div> <!-- end of row 5 Schedule, Map & Contact Me -->
+
+    <hr>
+
+    <!-- ********** row 6 Author/Publisher in Inline format -->
+    <div class="row">
+
+        <!-- col 1 -->
+        <div class="col-xs-12 
+                    col-sm-12
+                    col-md-12
+                    col-lg-12">
+ 
+                    <h6>Web page by sweat&tearsWerkz</h6>
+                    <ul class="list-inline text-center">
+                        <li>
+                            <a href="#"><i class="fa fa-telegram fa-2x"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-telegram fa-2x"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-telegram fa-2x"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-telegram fa-2x"></i>
+                            </a>
+                        </li>
+                    </ul>
+
+        
+        </div> <!-- end of col 1 -->
+
+    </div> <!-- end of row 6 -->
+
+
+</div> <!-- end of container -->
+
+<!--
+
+
+
+    
+
+
+-->
+
+
+
+    
+
+<!-- jquery -->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/3.1.1/jquery.min.js"></script>
+<!-- bootstrap js -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/wow/1.1.2/wow.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script>new WOW().init();</script>
+
+
+<script type="text/javascript">
+
+    $(function() {
+        var count = 0;
+        $('#toggle-img-button-id').click(function() {
+             var urls = [
+             "sales.jpg",
+             "friendly-hostage-target-practice.jpg",
+             "dv.jpg"];
+             count++;
+             if(count >= urls.length){
+                count = 0;
+             }
+             var cur = $('#toggle-img-id').attr('src', urls[count]);
+             console.log(urls[count]);
+        });
+    });
+
+</script>
+
+
+<script type="text/javascript">
+
+$('#toggle-img-button-ubiTechpark').hover( function(){
+    
+    var mapUrl1 = "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15954.997626399887!2d103.8956559!3d1.326301!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe0d1531a5ce5d80!2sUBI+Techpark!5e0!3m2!1sen!2ssg!4v1484914173333";
+
+    $('#map-id1').attr('src', mapUrl1);
+
+     // <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15954.997626399887!2d103.8956559!3d1.326301!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe0d1531a5ce5d80!2sUBI+Techpark!5e0!3m2!1sen!2ssg!4v1484914173333" class="embed-responsive-item">
+     // </iframe>;
+     console.log(mapUrl1);
+}); // end of click
+
+</script>
+
+
+<script type="text/javascript">
+
+
+$('#toggle-img-button-pasirRis').hover( function(){
+
+    var mapUrl2 = "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15954.691570130899!2d103.9492576!3d1.3729519!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd08088d87442a66c!2sPasir+Ris!5e0!3m2!1sen!2ssg!4v1485103714668";
+
+    $('#map-id1').attr('src', mapUrl2);
+
+     // <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15954.691570130899!2d103.9492576!3d1.3729519!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd08088d87442a66c!2sPasir+Ris!5e0!3m2!1sen!2ssg!4v1485103714668" class="embed-responsive-item">
+     //</iframe>;
+     console.log(mapUrl2);
+}); // end of click
+
+
+$('#hebrew').hover(function() { console.log("Blessings!") } );
+
+
+// .hide{
+//        display: none;
+//} 
+//
+// $('#hide-btn-id').click(function() {
+//     $('message-id').addClass('hide');
+// });
+//
+
+// $('#unhide-btn-id').click(function() {
+//    $('message-id').removeClass('hide');
+// });
+
+// $('#toggle-btn-id').click(function() {
+//    $('message-id').toggleClass('hide');
+// })
+
+</script>
+
+<script type="text/javascript" src="page.js"></script>
+
+<!--
+    var urls = [
+             "http://vignette1.wikia.nocookie.net/vsbattles/images/a/a3/Black-windows_542931.jpg/revision/latest?cb=20150317090032",
+             "friendly-hostage-target-practice.jpg"];
+-->
+<!-- https://thisislalaland.files.wordpress.com/2011/08/friendly-hostage-target-practice.jpg -->
+
+</body>
+</html>
